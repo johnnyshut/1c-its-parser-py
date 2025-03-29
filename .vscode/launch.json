@@ -1,0 +1,135 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Отладка main.py (EDT, headless)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--url",
+                "https://its.1c.ru/db/edtdoc",
+                "--login",
+                "https://login.1c.ru/login",
+                "--headless"
+            ]
+        },
+        {
+            "name": "Отладка main.py (EDT, verbose)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--url",
+                "https://its.1c.ru/db/edtdoc",
+                "--login",
+                "https://login.1c.ru/login",
+                "--verbose"
+            ]
+        },
+        {
+            "name": "Отладка main.py (EDT, headless, verbose)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--url",
+                "https://its.1c.ru/db/edtdoc",
+                "--login",
+                "https://login.1c.ru/login",
+                "--headless",
+                "--verbose"
+            ]
+        },
+        {
+            "name": "Отладка main.py (EDT, обычный режим)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--url",
+                "https://its.1c.ru/db/edtdoc",
+                "--login",
+                "https://login.1c.ru/login"
+            ]
+        },
+        {
+            "name": "Отладка main.py (EDT, limit=10)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--url",
+                "https://its.1c.ru/db/edtdoc",
+                "--login",
+                "https://login.1c.ru/login",
+                "--limit",
+                "10"
+            ]
+        },
+        {
+            "name": "Отладка main.py (ERP, headless)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--url",
+                "https://its.1c.ru/db/erp25doc",
+                "--login",
+                "https://login.1c.ru/login",
+                "--headless"
+            ]
+        },
+        {
+            "name": "Отладка main.py (ERP, verbose)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--url",
+                "https://its.1c.ru/db/erp25doc",
+                "--login",
+                "https://login.1c.ru/login",
+                "--verbose"
+            ]
+        },
+        {
+            "name": "Отладка main.py (ERP, обычный режим)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--url",
+                "https://its.1c.ru/db/erp25doc",
+                "--login",
+                "https://login.1c.ru/login"
+            ]
+        },
+        {
+            "name": "Отладка main.py (ERP, limit=10)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--url",
+                "https://its.1c.ru/db/erp25doc",
+                "--login",
+                "https://login.1c.ru/login",
+                "--limit",
+                "10"
+            ]
+        }
+    ]
+}
